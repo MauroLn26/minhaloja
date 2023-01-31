@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+ 
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 215, 215);
+    width: 100%;
+    
+    box-shadow: 5px 5px 20px rgb(172, 134, 141) ;
+}
+.header2{
+    padding: 20px;
+}
+#itens{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.iten1{
+    padding: 4em;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 1.2em;
+    transition: 0.5s;
+}
+
+.iten1:hover{
+    background-color: black;
+    border: 1px solid #fff;
+    cursor: pointer;
+    color: #fff;
+}
+
+/*FIM DO HEADER*/
+
+/*INCIO MAIN*/
+
+.linha1{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start ;
+    align-items:center ;
+    padding-top: 30px;
+   
+  
+}
+.linha1 img{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    
+}
+.linha1 h2{
+    margin-bottom: 5px;
+}
+
+
+.estilo1{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    transition: 0.5s;
+    margin: 5px;
+    padding-bottom: 10px;
+    
+}
+.estilo1:hover{
+    background-color: pink;
+}
+
+
+.botao{
+    margin-top: 20px;
+    padding: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.botao:hover{
+   background-color: black;
+   color: #fff;
+}
+
+.preço{
+    font-weight: bolder;
+   
+}
+
+.descricao{
+    font-style: italic;
+    width: 75%;
+}
+
